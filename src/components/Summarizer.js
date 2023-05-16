@@ -78,7 +78,7 @@ function Summarize() {
         <Grid item sx={{ width: '90%' }}>
           <TextField
             label={isSummarizeEnabled ? "Summarize & Translate" : "Only Translate"}
-            placeholder="Enter the text to be summarized"
+            placeholder={isSummarizeEnabled ? "Enter the text to be summarized & translated" : "Enter the text to be translated"}
             multiline
             rows={8}            
             sx={{ width: '100%' }}
