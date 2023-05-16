@@ -74,8 +74,7 @@ function Summarize() {
             label="Summarize"
             placeholder="Enter the text to be summarized"
             multiline
-            rows={8}
-            required
+            rows={8}            
             sx={{ width: '100%' }}
             onChange={textHandler}
             value={text}
