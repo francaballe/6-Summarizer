@@ -1,7 +1,7 @@
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import * as React from 'react';
 import { Route, Routes } from "react-router-dom";
-import Summarizer from "../src/components/Summarizer/Summarizer.js";
+import Summarizer from "../src/components/Summarizer.js";
 
 
 function App() {
