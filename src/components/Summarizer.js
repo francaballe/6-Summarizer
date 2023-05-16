@@ -123,7 +123,7 @@ function Summarize() {
 </Grid>
 <Grid item sx={{ width: '90%' }}>
 <TextField
-label="Summary"
+label={isSummarizeEnabled ? "Summary & Translation" : "Translation"}
 multiline
 rows={8}
 InputProps={{
