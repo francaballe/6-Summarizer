@@ -1,1 +1,1 @@
-# 6-Summarizer
+# Pokemon-Album-Client
