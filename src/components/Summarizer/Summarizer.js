@@ -69,7 +69,7 @@ function Summarize() {
       }}
     >
       <Grid container direction="column" alignItems="center" spacing={2}>
-        <Grid item sx={{ width: '100%' }}>
+        <Grid item sx={{ width: '90%' }}>
           <TextField
             label="Summarize"
             placeholder="Enter the text to be summarized"
@@ -99,7 +99,7 @@ function Summarize() {
             {isLoading ? "Summarizing..." : "Summarize"}
           </Button>
         </Grid>
-        <Grid item sx={{ width: '100%' }}>
+        <Grid item sx={{ width: '90%' }}>
           <TextField
             label="Summary"
             multiline
@@ -115,9 +115,15 @@ function Summarize() {
                 Copy to Clipboard
               </Button>
               </Grid>
+                
+                <Grid container justifyContent="center" item sx={{ width: '100%' }}>
+                  <img src="openai-logo.png" alt="Powered by OpenAI" />
+                </Grid>
+
               </Grid>
               </Box>
               );
-              }
+                            
+         }
               
               export default Summarize;
